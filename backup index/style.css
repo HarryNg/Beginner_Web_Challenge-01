@@ -2,22 +2,12 @@ body{
   background-color:hsl(210, 46%, 95%);
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
-#center{
-  margin:auto;
-  width: 80%;
-  border: 5px solid #FFFF00;
-}
 .grid-container{
 	display: grid;
-	grid-template-columns: 20% 21% 22% 21%;
-    grid-template-rows: 52% 52%;
+	grid-template-columns: 1.2fr 1.3fr 1.23fr 1.3fr;
+    grid-template-rows: 0.87fr 0.87fr;
     gap: 33px;
-	padding :120px;
-	
-    top: 50%; 
-    left: 50%; 
-    margin-top: -100px; 
-    margin-left: -100px; 
+	padding :100px;
 }
 .review-01{
 	grid-column: 1/3;
@@ -92,27 +82,27 @@ body{
 .review-head{
   font-weight:520;
   font-family:'Barlow Semi Condensed',sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   position: relative;
 }
 .review-body{
   font-weight:lighter;
   opacity:0.5;
-  font-size: 13.5px;
+  font-size: 13px;
 }
 .r3{
 	position:absolute;
-	bottom:27px;
+	bottom:5px;
 	padding:0px 17px 0px 0px;
 }
 .r4{
 	position:absolute;
-	bottom:27px;
+	bottom:5px;
 	padding:0px 15px 0px 0px;
 }
 .r5{
 	position:absolute;
-	bottom:27px;
+	bottom:5px;
 	padding:0px 30px 0px 5px;
 	
 }
